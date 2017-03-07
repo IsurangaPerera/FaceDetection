@@ -1,3 +1,0 @@
-/home/isurangaperera/Documents/FaceDetection/CMakeFiles/rebuild_cache.dir
-/home/isurangaperera/Documents/FaceDetection/CMakeFiles/edit_cache.dir
-/home/isurangaperera/Documents/FaceDetection/CMakeFiles/FaceDetection.dir

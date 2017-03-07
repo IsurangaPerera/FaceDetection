@@ -35,7 +35,7 @@ int main( int argc, const char** argv )
 
     if( !eyes_cascade.load( eyes_cascade_name ) )
     {
-         printf("--(!)Error loading\n");
+         printf("--(!)Error loadinsg\n");
          return -1;
     }
 
