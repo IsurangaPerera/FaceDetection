@@ -23,6 +23,7 @@ RNG rng(12345);
 int main( int argc, const char** argv )
 {
     CvCapture* capture;
+    IplImage* img;
     Mat frame;
 
     //-- 1. Load the cascades
@@ -44,7 +45,8 @@ int main( int argc, const char** argv )
     {
          while( true )
          {
-             frame = cvQueryFrame( capture );
+             img = cvQueryFrame( capture );
+             frame = cvarrToMat(img);
 
              //-- 3. Apply the classifier to the frame
              if( !frame.empty() ) detectAndDisplay( frame );
